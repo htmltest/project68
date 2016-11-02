@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8" />
+        <title>ПРОСПЕКТХОУМ</title>
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400|Roboto:300,400,400i,700,700i&amp;subset=cyrillic" />
+        <link rel="stylesheet" href="css/styles.css" />
+        <link rel="stylesheet" href="js/chosen/chosen.css" />
+        <link rel="stylesheet" href="js/jquery-ui-1.11.4.spinner/jquery-ui.css" />
+        <link rel="stylesheet" href="js/jscrollpane/jquery.jscrollpane.css" />
+
+        <script src="js/jquery-2.2.4.min.js"></script>
+        <script src="js/chosen/chosen.jquery.min.js"></script>
+        <script src="js/jquery.maskedinput.min.js"></script>
+        <script src="js/validation/jquery.validate.min.js"></script>
+        <script src="js/validation/messages_ru.js"></script>
+        <script src="js/jquery-ui-1.11.4.spinner/jquery-ui.min.js"></script>
+        <script src="js/tools.js"></script>
+
+        <meta name="viewport" content="width=1024" />
+    </head>
+
+    <body>
+
+        <!-- wrapper -->
+        <div class="wrapper">
+
+            <header>
+                <div class="header-inner">
+                    <div class="header-left">
+                        <div class="header-contacts">
+                            Тел. +7(495)748-95-26, +7(925)206-62-80<br />
+                            г. Москва, ул. Зоологическая 22<br />
+                            с 9:00 до 21:00
+                        </div>
+
+                        <div class="header-social">
+                            <a href="#" class="header-social-1"></a>
+                            <a href="#" class="header-social-2"></a>
+                            <a href="#" class="header-social-3"></a>
+                        </div>
+                    </div>
+
+                    <div class="header-right">
+                        <ul class="header-menu">
+                            <li><a href="#">Оплата и доставка</a></li>
+                            <li><a href="#">О нас</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+
+                        <div class="header-ctrl">
+                            <div class="header-cart">
+                                <div class="header-cart-value">(0)</div>
+                            </div>
+
+                            <div class="header-search">
+                                <a href="#" class="header-search-link"></a>
+                                <form action="#" method="post">
+                                    <div class="header-search-submit"><input type="submit" value="" /></div>
+                                    <div class="header-search-input"><input type="text" name="search" value="" class="required" placeholder="Поиск..." /></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="logo"><a href="#"><img src="images/logo.png" alt="" width="261" height="99" /></a></div>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li class="with-submenu">
+                            <a href="#">Различная плитка</a>
+                            <div class="nav-sub">
+                                <div class="nav-sub-photo"><img src="files/nav-sub.jpg" alt="" /></div>
+                                <ul>
+                                    <li><a href="#">Керамическая плитка</a></li>
+                                    <li><a href="#">Керамогранит</a></li>
+                                    <li><a href="#">Мрамор</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="with-submenu">
+                            <a href="#">Напольные покрытия</a>
+                            <div class="nav-sub">
+                                <ul>
+                                    <li><a href="#">Ламинат</a></li>
+                                    <li><a href="#">Паркетная доска</a></li>
+                                    <li><a href="#">Инженерная доска</a></li>
+                                    <li><a href="#">Массив</a></li>
+                                    <li><a href="#">Паркет</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="with-submenu">
+                            <a href="#">Качественные Двери</a>
+                            <div class="nav-sub">
+                                <ul>
+                                    <li><a href="#">МДФ</a></li>
+                                    <li><a href="#">Экошпон</a></li>
+                                    <li><a href="#">Массив</a></li>
+                                    <li><a href="#">Входные Металл</a></li>
+                                    <li><a href="#">Ручки и замки</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="with-submenu active">
+                            <a href="#">Практичные Кухни</a>
+                            <div class="nav-sub">
+                                <ul>
+                                    <li><a href="#">МДФ</a></li>
+                                    <li><a href="#">Окрашенные</a></li>
+                                    <li><a href="#">Массив</a></li>
+                                    <li><a href="#">Столешницы</a></li>
+                                    <li><a href="#">Фурнитура</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="with-submenu">
+                            <a href="#">Дизайнерское Освещение</a>
+                            <div class="nav-sub">
+                                <ul>
+                                    <li><a href="#">Точечный свет</a></li>
+                                    <li><a href="#">Люстры</a></li>
+                                    <li><a href="#">Настенное освещение</a></li>
+                                    <li><a href="#">Настольное и напольное</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="with-submenu">
+                            <a href="#">Надежная Сантехника</a>
+                            <div class="nav-sub">
+                                <div class="nav-sub-photo"><img src="files/nav-sub.jpg" alt="" /></div>
+                                <ul>
+                                    <li><a href="#">Умывальники</a></li>
+                                    <li><a href="#">Ванны и душ кабины</a></li>
+                                    <li><a href="#">Унитазы и биде</a></li>
+                                    <li><a href="#">Полотенцесушители</a></li>
+                                    <li><a href="#">Смесители</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="#">Металл и Массив</a></li>
+                    </ul>
+                </nav>
+
+            </header>
+
+            <!-- container -->
+            <div class="container">
+
+                <div class="breadcrumbs"><a href="#">Главная</a><span> &rsaquo;&rsaquo; </span><a href="#">Практичные кухни</a><span> &rsaquo;&rsaquo; </span><a href="#">Современные кухни</a> &rsaquo;&rsaquo; Кухня Фризо</div>
+
+                <!-- product -->
+                <div class="product">
+
+                    <!-- product left -->
+                    <div class="product-left">
+
+                        <div class="product-photo-big">
+                            <img src="files/product-big-1.jpg" alt="" />
+                        </div>
+                        <div class="product-photo-preview">
+                            <ul>
+                                <li class="active"><a href="files/product-big-1.jpg"><img src="files/product-preview-1.jpg" alt="" /></a></li>
+                                <li><a href="files/product-big-2.jpg"><img src="files/product-preview-2.jpg" alt="" /></a></li>
+                                <li><a href="files/product-big-3.jpg"><img src="files/product-preview-3.jpg" alt="" /></a></li>
+                                <li><a href="files/product-big-4.jpg"><img src="files/product-preview-4.jpg" alt="" /></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- product left END -->
+
+                    <!-- product right -->
+                    <div class="product-right">
+                        <h1>Кухня Фризо</h1>
+
+                        <div class="product-info">
+                            <div class="product-info-item">Артикул: <span>#55657</span></div>
+                            <div class="product-info-item">На складе: <span>В наличии</span></div>
+                        </div>
+
+                        <div class="product-text">Модель Фризо - это французская классика с особой индивидуальностью и ноткой шика. Завуалированное богатство обстановки поддерживает благородная тональность отделки фасадов, изящные резные капители и пилястры. Здесь прекрасно уживается дух традиций и современные решения.</div>
+
+                        <div class="product-doc"><a href="#"><img src="images/icon-pdf.png" alt="" width="40" height="48" /> - <span>скачать брошюру</span></a></div>
+
+                        <div class="product-order">
+                            <form action="#" method="post">
+                                <div class="product-price">от 30 909 руб.</div>
+                                <a href="windows/call.html" class="btn-2 product-call-link window-link">Позвонить</a>
+                                <div class="product-order-link">
+                                    <input type="submit" value="оставить заявку" class="btn-1" />
+                                    <div class="product-order-link-hint">на дизайн -проект</div>
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="product-params">
+                            <div class="product-param"><span>Бренд:</span> Kronne</div>
+                            <div class="product-param"><span>Материал:</span> массив березы/дуба,  мдф + шпон березы/дуба</div>
+                            <div class="product-param"><span>Столешница:</span> глянцевая плита из гигиеничного и износостойкого материала</div>
+                            <div class="product-param"><span>Возможные размеры:</span> 1,2 м, 1,5 м, 2,2 м, 2,6 м</div>
+                            <div class="product-param"><span>Страна-Изготовитель:</span> Италия</div>
+                        </div>
+
+                    </div>
+                    <!-- product right END -->
+
+                    <div class="product-social">
+                        <div class="social">
+                            <div class="social-title">поделиться</div>
+
+                            <div class="social-item">
+                                <div class="social-item-inner">
+                                    <script>(function(d){
+                                    var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
+                                    js = d.createElement('script'); js.id = id; js.async = true;
+                                    js.src = '//connect.facebook.net/ru_RU/all.js#xfbml=1';
+                                    d.getElementsByTagName('head')[0].appendChild(js);
+                                    }(document));
+                                    </script>
+                                    <div class='fb-like' data-send='false' data-layout='button_count'  data-width='100' data-show-faces='false'></div>
+                                </div>
+                            </div>
+
+                            <div class="social-item">
+                                <div class="social-item-inner">
+                                    <a href='https://twitter.com/share' class='twitter-share-button' data-count='horizontal' data-lang='ru'>Tweet</a><script type='text/javascript' src='//platform.twitter.com/widgets.js'></script>
+                                </div>
+                            </div>
+
+                            <div class="social-item">
+                                <div class="social-item-inner">
+                                    <script
+                                        type="text/javascript"
+                                        async defer
+                                        src="//assets.pinterest.com/js/pinit.js"
+                                    ></script>
+                                    <a href="https://www.pinterest.com/pin/create/button/">
+                                        <img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_gray_20.png" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- product END -->
+
+            </div>
+            <!-- container END -->
+
+            <!-- container -->
+            <div class="container">
+
+                <h1>Вы недавно смотрели</h1>
+
+                <!-- catalogue -->
+                <div class="catalogue">
+
+                    <!-- catalogue item -->
+                    <div class="catalogue-item">
+                        <a href="#">
+                            <div class="catalogue-item-photo"><img src="files/catalogue-17.jpg" alt="" /></div>
+                            <div class="catalogue-item-title">Лампа настольная микрофон 089765</div>
+                            <div class="catalogue-item-price">4 900 руб.</div>
+                        </a>
+                    </div>
+                    <!-- catalogue item END -->
+
+                    <!-- catalogue item -->
+                    <div class="catalogue-item">
+                        <a href="#">
+                            <div class="catalogue-item-photo"><img src="files/catalogue-18.jpg" alt="" /></div>
+                            <div class="catalogue-item-title">плитка KASHQAI 4327-300 </div>
+                            <div class="catalogue-item-price">1 909 руб.</div>
+                        </a>
+                    </div>
+                    <!-- catalogue item END -->
+
+                    <!-- catalogue item -->
+                    <div class="catalogue-item">
+                        <a href="#">
+                            <div class="catalogue-item-photo"><img src="files/catalogue-19.jpg" alt="" /></div>
+                            <div class="catalogue-item-title">Дуб карамель Белый 234327-H </div>
+                            <div class="catalogue-item-price">5 909 руб.</div>
+                        </a>
+                    </div>
+                    <!-- catalogue item END -->
+
+                    <!-- catalogue item -->
+                    <div class="catalogue-item">
+                        <a href="#">
+                            <div class="catalogue-item-photo"><img src="files/catalogue-20.jpg" alt="" /></div>
+                            <div class="catalogue-item-title">Металлическая дверь Форпост 730</div>
+                            <div class="catalogue-item-price">10 909 руб.</div>
+                        </a>
+                    </div>
+                    <!-- catalogue item END -->
+
+                </div>
+                <!-- catalogue END -->
+
+            </div>
+            <!-- container END -->
+
+        </div>
+        <!-- wrapper END -->
+
+        <footer>
+
+            <!-- footer menu -->
+            <div class="footer-menu">
+                <div class="footer-menu-inner">
+
+                    <!-- footer menu item -->
+                    <div class="footer-menu-item">
+                        <div class="footer-menu-item-title"><a href="#">Различная плитка</a></div>
+                        <ul>
+                            <li><a href="#">Керамическая плитка</a></li>
+                            <li><a href="#">Керамогранит</a></li>
+                            <li><a href="#">Мрамор</a></li>
+                        </ul>
+                    </div>
+                    <!-- footer menu item END -->
+
+                    <!-- footer menu item -->
+                    <div class="footer-menu-item">
+                        <div class="footer-menu-item-title"><a href="#">Качественные Двери</a></div>
+                        <ul>
+                            <li><a href="#">МДФ</a></li>
+                            <li><a href="#">Экошпон</a></li>
+                            <li><a href="#">Массив</a></li>
+                            <li><a href="#">Входные Металл</a></li>
+                            <li><a href="#">Ручки и замки</a></li>
+                        </ul>
+                    </div>
+                    <!-- footer menu item END -->
+
+                    <!-- footer menu item -->
+                    <div class="footer-menu-item">
+                        <div class="footer-menu-item-title"><a href="#">Дизайнерское Освещение</a></div>
+                        <ul>
+                            <li><a href="#">Точечный свет</a></li>
+                            <li><a href="#">Люстры</a></li>
+                            <li><a href="#">Настенное освещение</a></li>
+                            <li><a href="#">Настольное и напольное</a></li>
+                        </ul>
+                    </div>
+                    <!-- footer menu item END -->
+
+                    <!-- footer menu item -->
+                    <div class="footer-menu-item">
+                        <div class="footer-menu-item-title"><a href="#">Металл и Массив</a></div>
+                    </div>
+                    <!-- footer menu item END -->
+
+                    <!-- footer menu item -->
+                    <div class="footer-menu-item">
+                        <div class="footer-menu-item-title"><a href="#">Напольные покрытия</a></div>
+                        <ul>
+                            <li><a href="#">Ламинат</a></li>
+                            <li><a href="#">Паркетная доска</a></li>
+                            <li><a href="#">Инженерная доска</a></li>
+                            <li><a href="#">Массив</a></li>
+                            <li><a href="#">Паркет</a></li>
+                        </ul>
+                    </div>
+                    <!-- footer menu item END -->
+
+                    <!-- footer menu item -->
+                    <div class="footer-menu-item">
+                        <div class="footer-menu-item-title"><a href="#">Практичные Кухни</a></div>
+                        <ul>
+                            <li><a href="#">МДФ</a></li>
+                            <li><a href="#">Окрашенные</a></li>
+                            <li><a href="#">Массив</a></li>
+                            <li><a href="#">Столешницы</a></li>
+                            <li><a href="#">Фурнитура</a></li>
+                        </ul>
+                    </div>
+                    <!-- footer menu item END -->
+
+                    <!-- footer menu item -->
+                    <div class="footer-menu-item">
+                        <div class="footer-menu-item-title"><a href="#">Надежная Сантехника</a></div>
+                        <ul>
+                            <li><a href="#">Умывальники</a></li>
+                            <li><a href="#">Ванны и душ кабины</a></li>
+                            <li><a href="#">Унитазы и биде</a></li>
+                            <li><a href="#">Полотенцесушители</a></li>
+                            <li><a href="#">Смесители</a></li>
+                        </ul>
+                    </div>
+                    <!-- footer menu item END -->
+
+                    <!-- footer menu item -->
+                    <div class="footer-menu-item">
+                        <div class="footer-menu-item-title"><a href="#">Поиск</a></div>
+                        <form action="#" method="post" class="footer-search">
+                            <div class="footer-search-submit"><input type="submit" value="" class="required" /></div>
+                            <div class="footer-search-input"><input type="text" name="search" value="" placeholder="Найти.." /></div>
+                        </form>
+                    </div>
+                    <!-- footer menu item END -->
+
+                </div>
+            </div>
+            <!-- footer menu END -->
+
+            <div class="footer-inner">
+                <div class="footer-container">
+                    <div class="footer-left">
+                        <div class="footer-contacts">
+                            Тел. +7(495)748-95-26, +7(925)206-62-80<br />
+                            г. Москва, ул. Зоологическая 22<br />
+                            с 9:00 до 21:00
+                        </div>
+
+                        <div class="footer-social">
+                            <a href="#" class="footer-social-1"></a>
+                            <a href="#" class="footer-social-2"></a>
+                            <a href="#" class="footer-social-3"></a>
+                        </div>
+                    </div>
+
+                    <div class="footer-right">
+                        <ul class="footer-container-menu">
+                            <li><a href="#">О нас</a></li>
+                            <li><a href="#">Оплата и доставка</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+
+                        <div class="footer-copyrights">© 2016 ПРОСПЕКТХОУМ. Домашний уют.<br />Все права защищены.</div>
+                    </div>
+
+                    <div class="footer-logo"><img src="images/footer-logo.png" alt="" width="277" height="102" /></div>
+                </div>
+            </div>
+
+        </footer>
+
+    </body>
+</html>
