@@ -187,6 +187,19 @@ $(document).ready(function() {
         e.preventDefault();
     });
 
+    $('.nav-sub li').hover(
+        function() {
+            var curLi = $(this);
+            var curSub = curLi.parent().parent();
+            var curIndex = curSub.find('ul li').index(curLi);
+            curSub.find('.nav-sub-photo-sub').eq(curIndex).addClass('hover');
+        },
+
+        function() {
+            $('.nav-sub-photo-sub.hover').removeClass('hover');
+        }
+    );
+
 });
 
 $(window).on('resize', function() {
