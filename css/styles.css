@@ -238,6 +238,7 @@ nav > ul > li:hover > .nav-sub {display:block}
 .basket-name a {color:#5d4e48; text-decoration:none}
 .basket-name a:hover {text-decoration:underline}
 .basket-count {width:98px; padding:0 40px 0 70px}
+.basket-count .form-input.valid:after {display:none}
 .basket-price {font-size:18px; color:#5d4e48}
 .basket-delete a {display:block; width:12px; height:12px; margin:0 auto; background:url(../images/basket-delete.png)}
 
