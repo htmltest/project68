@@ -226,13 +226,6 @@ function initForm(curForm) {
 
     curForm.find('input.maskPhone').mask('+7 (999) 999-99-99');
 
-    $.validator.addMethod('maskPhone',
-        function(value, element) {
-            return /^\+7 \(\d{3}\) \d{3}\-\d{2}\-\d{2}$/.test(value);
-        },
-        'не соответствует формату'
-    );
-
     curForm.find('.form-select select').chosen({disable_search: true, no_results_text: 'Нет результатов'});
 
     curForm.find('input[type="number"]').each(function() {
