@@ -124,6 +124,13 @@ $(document).ready(function() {
         e.preventDefault();
     });
 
+    $.validator.addMethod('maskPhone',
+        function(value, element) {
+            return /^\+7 \(\d{3}\) \d{3}\-\d{2}\-\d{2}$/.test(value);
+        },
+        'Не соответствует формату'
+    );
+
     $('form').each(function() {
         initForm($(this));
     });
